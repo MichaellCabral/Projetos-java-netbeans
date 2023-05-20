@@ -15,7 +15,7 @@ public class Aula02 {
         Caneta c2 = new Caneta();//cria o obejto caneta c2
         c2.modelo = "compacta";
         c2.cor = "vermelha";
-        c2.tampada = false;
+        c2.tampada = true;
         c2.ponta = 1;  
         c2.carga = 0;                    
         c2.status();
