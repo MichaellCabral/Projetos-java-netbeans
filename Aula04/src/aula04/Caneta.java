@@ -14,7 +14,7 @@ public class Caneta {
       //this.cor = "Azul";  //caneta de cor azul
     }            
     public String getModelo() {
-        return this .modelo;
+        return this.modelo;
     }
     public void setModelo(String m) { //void = vazio
         this.modelo = m;
@@ -36,9 +36,9 @@ public class Caneta {
         System.out.println("SOBRE A CANETA");
       //System.out.println("Modelo " + this.modelo);
       //System.out.println("Ponta " + this.ponta);
-        System.out.println("Modelo: " + this.getModelo());
-        System.out.println("Ponta: "+ this.getPonta());
+        System.out.println("Modelo: " + this.getModelo());        
         System.out.println("Cor: " + this.cor);
+        System.out.println("Ponta: "+ this.getPonta());
         System.out.println("Tampada: " + this.tampada);
     }
 }
