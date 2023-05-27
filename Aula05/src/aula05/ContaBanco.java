@@ -6,11 +6,22 @@ public class ContaBanco {
     private String dono;
     private float saldo;
     private boolean status;
+    
     //Metodos personalizados
-    public void abrirConta() {
-        
+    public void abrirConta(String t) { //onde "t" é o tipo que vai receber cc ou cp
+        this.setTipo(t);           // se é cc ou cp
+        this.setStatus(true);    // se conta esta ativa
+        if ("CC".equals(t)) {        // t == "CC"
+            this.setSaldo(50);
+        } else if ("CP".equals(t)) { // t == "CP"
+            this.setSaldo(150);
+        }
+        System.out.println("Conta aberta com sucesso!");
     }
     public void fecharConta() {
+        
+    }
+    public void depositar(){
         
     }
     public void sacar() {
@@ -25,7 +36,7 @@ public class ContaBanco {
         this.status = false;
         
     }
-
+    
     public int getNumConta() {
         return numConta;
     }
