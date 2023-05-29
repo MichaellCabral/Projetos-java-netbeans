@@ -5,6 +5,7 @@ public class Aula05 {
        pessoa01.setNumConta(1111);
        pessoa01.setDono("Michaell");
        pessoa01.estadoAtual();
+       pessoa01.abrirConta("CC");
        
     }
     
