@@ -51,7 +51,7 @@ public class ContaBanco {
         if (this.getStatus()){
             if(this.getSaldo() >= v) {
                 this.setSaldo(this.getSaldo()-v);
-                System.out.println("Saldo realizado na conta no de " + this.getDono());
+                System.out.println("Saque realizado na conta de " + this.getDono());
             } else {
                 System.out.println("Saldo insuficiente para saque");
             }
